@@ -1,0 +1,9 @@
+<Alloy>
+	<View class="container">
+		<Label id="appIcon">My Events</Label>
+		<View id="iconView">
+			<Label id="searchIcon" class="iconLabel"></Label>
+			<Label id="notificationsIcon" class="iconLabel"></Label>
+		</View>
+	</View>
+</Alloy>

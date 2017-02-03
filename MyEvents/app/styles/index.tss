@@ -1,0 +1,132 @@
+".container": {
+	navBarHidden:true,
+    tabBarHidden:true,
+    fullscreen:true
+}
+
+".backgroundImage": {
+	image: "/images/loginBG.jpg",
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+}
+
+".blurrView": {
+	backgroundColor: "#455A64",
+	opacity: 0.8,
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+}
+
+".loginContainer": {
+	width: "90%",
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+}
+
+".fieldContainer": {
+	width: "90%",
+	height: Titanium.UI.SIZE,
+	borderColor: "#E0E0E0",
+	borderWidth: 1,
+	top: 10,
+	layout: "horizontal",
+	bottom: 10
+}
+
+".inputIcon": {
+	width: Titanium.UI.SIZE,
+	height: 30,
+	left: 10,
+	top: 10,
+	botton: 5
+}
+
+".valueField": {
+	height: 40,
+	width: '75%',
+	color: "#E0E0E0",
+	top: 5,
+	bottom: 5,
+	right: 10,
+	left: 10,
+	hintTextColor: "#E0E0E0",
+	backgroundColor: 'transparent'
+}
+
+"#userIcon": {
+	image: "/images/userIcon.png"
+}
+
+"#userNameTF": {
+	hintText: 'UserName'
+}
+
+"#passwordIcon": {
+	image: "/images/passwordIcon.png"
+}
+
+"#passwordTF": {
+	hintText: 'Password'
+}
+
+"#loginBtn": {
+	title: 'Login',
+	height: 40,
+	width: "90%",
+	top: 10,
+	botton: 10,
+	color: "white",
+	backgroundColor: Alloy.Styles.colors.buttonColor,
+	font : Alloy.Styles.fonts.primaryButtonFont
+}
+
+"#registerContainer": {
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout: "horizontal",
+	bottom: 30
+}
+
+"#saveUserContainer": {
+	width: "90%",
+	height: 30,
+	top: 10,
+	layout: "horizontal"
+}
+
+"#rememberMeCB": {
+	width: Titanium.UI.SIZE,
+	height: 20,
+	image: "/images/unselectedCB.png"
+}
+
+"#rememberMeLbl": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	text: 'Remember Me',
+	color: "#E0E0E0",
+	left: 10
+}
+
+"#forgotPasswordLbl": {
+	text: "Forgot Password ?",
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	color: "#FF6D00",
+	top: 10
+}
+
+"#newHereLbl": {
+	text: "New Here ? ",
+	color: "#E0E0E0",
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+}
+
+"#signUpLbl": {
+	right: 0,
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	text: 'Sign Up',
+	color: "#FF6D00"
+}

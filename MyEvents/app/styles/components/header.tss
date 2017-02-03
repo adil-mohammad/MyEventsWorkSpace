@@ -1,0 +1,23 @@
+
+".container" : {
+  height : 50,
+  width : Titanium.UI.FILL,
+  color : Alloy.styles.colors.primaryColor
+}
+
+"#appIcon" : {
+	height : '90%',
+	width : Titanium.UI.SIZE
+}
+
+"#iconView" : {
+	height : Titanium.UI.FILL,
+	width : Titanium.UI.SIZE,
+	right : 0
+}
+
+".iconLabel" : {
+	height : '90%',
+	width : Titanium.UI.SIZE,
+	right : 10
+}

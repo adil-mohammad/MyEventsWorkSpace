@@ -1,0 +1,26 @@
+<Alloy>
+	<Window class="container">
+		<ImageView class="backgroundImage"></ImageView>
+		<View class="blurrView"></View>
+		<View class="loginContainer">
+			<View class="fieldContainer">
+				<ImageView id="userIcon" class="inputIcon"></ImageView>
+				<TextField id="userNameTF" class="valueField"></TextField>
+			</View>
+			<View class="fieldContainer">
+				<ImageView id="passwordIcon" class="inputIcon"></ImageView>
+				<TextField id="passwordTF" class="valueField"></TextField>
+			</View>
+			<View id="saveUserContainer">
+				<ImageView id="rememberMeCB"></ImageView>
+				<Label id="rememberMeLbl"></Label>
+			</View>
+			<Button id="loginBtn"></Button>
+			<Label id="forgotPasswordLbl"></Label>
+		</View>
+		<View id="registerContainer">
+			<Label id="newHereLbl"></Label>
+			<Label id="signUpLbl"></Label>
+		</View>
+	</Window>
+</Alloy>
